@@ -40,7 +40,7 @@ def main():
 
     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, send_lecturer))
 
-    #updater.start_polling()
+    # updater.start_polling()
     updater.start_webhook(
         listen='0.0.0.0',
         port=int(PORT),
