@@ -1,6 +1,5 @@
 import logging
 import os
-from dotenv import load_dotenv
 TOKEN = os.environ.get('TOKEN')
 PORT = int(os.environ.get('PORT', 5000))
 
